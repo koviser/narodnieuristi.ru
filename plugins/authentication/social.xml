@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="authentication">
+	<name>Authentication - Social Joomla</name>
+	<author>Oleg Ryazantcev</author>
+	<creationDate>12-07-2011</creationDate>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>ovevil@gmail.com</authorEmail>
+	<authorUrl>www.7tag.ru</authorUrl>
+	<version>1.5</version>
+	<description>Social authentication</description>
+	<files>
+		<filename plugin="social">social.php</filename>
+	</files>
+	<params/>
+</install>

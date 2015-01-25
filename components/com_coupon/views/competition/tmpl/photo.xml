@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="STANDART">
+		<message>
+			<![CDATA[PHOTOPAGE]]>
+		</message>
+	</layout>
+	<state>
+		<name>PHOTOPAGE</name>
+		<description>PHOTOPAGEDESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

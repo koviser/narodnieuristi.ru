@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="STANDART">
+		<message>
+			<![CDATA[REGISTR]]>
+		</message>
+	</layout>
+	<state>
+		<name>REGISTR</name>
+		<description>REGISTRDESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="USER PARTNER LAYOUT">
+		<message>
+			<![CDATA[DEFAULT USER PARTNER LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>DEFAULT USER PARTNER</name>
+		<description>DEFAULT USER PARTNER DESC</description>
+	</state>
+</metadata>

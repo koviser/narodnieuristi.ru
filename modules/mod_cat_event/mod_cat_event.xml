@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Select Category Event</name>
+	<author>Oleg Ryazantcev</author>
+	<creationDate>31-05-2011</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>ovevil@gmail.com</authorEmail>
+	<authorUrl>www.7tag.ru</authorUrl>
+	<version>1.0.0</version>
+	<description>DESCCATEVENT</description>
+	<files>
+		<filename module="mod_cat_event">mod_cat_event.php</filename>
+	</files>
+</install>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="USER FRIENDS LAYOUT">
+		<message>
+			<![CDATA[DEFAULT USER FRIENDS LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>DEFAULT USER FRIENDS</name>
+		<description>DEFAULT USER FRIENDS DESC</description>
+	</state>
+</metadata>

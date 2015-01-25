@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="STANDART">
+		<message>
+			<![CDATA[FRIENDPAGE]]>
+		</message>
+	</layout>
+	<state>
+		<name>FRIENDPAGE</name>
+		<description>FRIENDPAGEDESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

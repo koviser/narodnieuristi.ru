@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="STANDART">
+		<message>
+			<![CDATA[XMLPAGE]]>
+		</message>
+	</layout>
+	<state>
+		<name>LISTPAGE</name>
+		<description>XMLPAGEDESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

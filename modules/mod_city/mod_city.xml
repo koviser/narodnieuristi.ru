@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Select City</name>
+	<author>Oleg Ryazantcev</author>
+	<creationDate>31-05-2011</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>ovevil@gmail.com</authorEmail>
+	<authorUrl>www.7tag.ru</authorUrl>
+	<version>1.0.0</version>
+	<description>DESCLOGINFORM</description>
+	<files>
+		<filename module="mod_city">mod_city.php</filename>
+	</files>
+</install>

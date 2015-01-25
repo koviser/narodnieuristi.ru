@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="USER EVENT LAYOUT">
+		<message>
+			<![CDATA[DEFAULT USER EVENT LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>DEFAULT USER EVENT</name>
+		<description>DEFAULT USER EVENT DESC</description>
+	</state>
+</metadata>

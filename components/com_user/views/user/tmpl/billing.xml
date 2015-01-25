@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="PAYMENT">
+		<message>
+			<![CDATA[PAYMENTPAGE]]>
+		</message>
+	</layout>
+	<state>
+		<name>PAYMENTPAGE</name>
+		<description>PAYMENTPAGEDESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

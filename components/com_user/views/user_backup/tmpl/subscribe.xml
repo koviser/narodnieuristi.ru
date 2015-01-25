@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="USERSEDITFORM">
+		<message>
+			<![CDATA[USERSEDITFORMDESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>USERSEDITFORM</name>
+		<description>USERSEDITFORMDESC</description>
+	</state>
+</metadata>
