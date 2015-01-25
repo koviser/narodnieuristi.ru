@@ -53,7 +53,7 @@ class JConfig {
 	var $db = 'narodyuris';
 	var $dbprefix = 'jos_';
 	var $mailer = 'mail';
-	var $mailfrom = 'info@skidking.com';
+	var $mailfrom = 'narod.yuristu_kazan@mail.ru';
 	var $fromname = '';
 	var $sendmail = '/usr/sbin/sendmail';
 	var $smtpauth = '0';

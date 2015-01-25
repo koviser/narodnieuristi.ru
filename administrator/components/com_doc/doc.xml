@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install method="upgrade" type="component" version="1.5.0">
+	<name>coupon</name>
+	<creationDate>27/06/2010</creationDate>
+	<author>www.7tag.ru</author>
+	<authorEmail>oleg@7tag.ru</authorEmail>
+	<authorUrl>www.7tag.ru</authorUrl>
+	<copyright>Copyright (C) 2005 - 2010 7tag</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>coupon</description>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<installfile>install.build.php</installfile>
+	<uninstallfile>uninstall.build.php</uninstallfile>
+	<files folder="front">
+		<filename>index.html</filename>
+		<filename>build.php</filename>
+		<filename>controller.php</filename>
+		<filename>css/close.png</filename>
+		<filename>css/loading.gif</filename>
+		<filename>css/next.png</filename>
+		<filename>css/pause.png</filename>
+		<filename>css/play.png</filename>
+		<filename>css/previous.png</filename>
+		<filename>css/metromap.css</filename>
+		<filename>css/shadowbox.css</filename>
+		<filename>css/style.css</filename>
+		<filename>images/a1.gif</filename>
+		<filename>images/a2.gif</filename>
+		<filename>images/a3.gif</filename>
+		<filename>images/bullit.gif</filename>
+		<filename>images/close.gif</filename>
+		<filename>images/dot.gif</filename>
+		<filename>images/map.gif</filename>
+		<filename>images/in_cart.jpg</filename>
+		<filename>images/out_cart.jpg</filename>
+		<filename>images/metro.jpg</filename>
+		<filename>js/ajax.js</filename>
+		<filename>js/ajaxsearch.js</filename>
+		<filename>js/main.js</filename>
+		<filename>js/searchpa.js</filename>
+		<filename>js/shadowbox.js</filename>	
+		<filename>views/booking/view.html.php</filename>
+		<filename>views/booking/index.html</filename>
+		<filename>views/booking/tmpl/default.php</filename>
+		<filename>views/booking/tmpl/index.html</filename>
+		<filename>views/build/view.html.php</filename>
+		<filename>views/build/index.html</filename>
+		<filename>views/build/tmpl/default.php</filename>
+		<filename>views/build/tmpl/index.html</filename>
+		<filename>views/cart/view.html.php</filename>
+		<filename>views/cart/index.html</filename>
+		<filename>views/cart/tmpl/default.php</filename>
+		<filename>views/cart/tmpl/index.html</filename>
+		<filename>views/room/view.html.php</filename>
+		<filename>views/room/index.html</filename>
+		<filename>views/room/tmpl/default.php</filename>
+		<filename>views/room/tmpl/index.html</filename>
+		<filename>views/rooms/view.html.php</filename>
+		<filename>views/rooms/index.html</filename>
+		<filename>views/rooms/tmpl/default.php</filename>
+		<filename>views/rooms/tmpl/index.html</filename>
+		<filename>views/thank/view.html.php</filename>
+		<filename>views/thank/index.html</filename>
+		<filename>views/thank/tmpl/default.php</filename>
+		<filename>views/thank/tmpl/index.html</filename>	
+	</files>
+	<languages>
+		<language tag="ru-RU">language/front/ru-RU/ru-RU.com_build.ini</language>
+	</languages>
+	<administration>
+		<menu img="" link="option=com_build">Build Manager</menu>
+		<submenu>
+			<menu img="" link="option=com_build&amp;controller=metro&amp;view=metros">Metro Manager</menu>
+			<menu img="" link="option=com_build&amp;controller=type&amp;view=types">Type Manager</menu>
+			<menu img="" link="option=com_build&amp;controller=room&amp;view=rooms">Room Manager</menu>
+			<menu img="" link="option=com_build">Build Manager</menu>
+			<menu img="" link="option=com_build&amp;controller=target&amp;view=targets">Target Manager</menu>
+			<menu img="" link="option=com_build&amp;controller=transaction&amp;view=transactions">Transaction Manager</menu>
+			<menu img="" link="option=com_build&amp;controller=realtor&amp;view=realtors">Realtor Manager</menu>
+			<menu img="" link="option=com_build&amp;controller=plan&amp;view=plans">Plan Manager</menu>
+		</submenu>
+		<files>
+			<filename>admin.build.php</filename>
+			<filename>build.xml</filename>
+			<filename>config.xml</filename>
+			<filename>common.php</filename>
+			<filename>index.html</filename>
+			<filename>install.build.php</filename>
+			<filename>uninstall.build.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<filename>classes/build.php</filename>
+			<filename>classes/image.php</filename>
+			<filename>classes/metro.php</filename>
+			<filename>classes/room.php</filename>
+			<filename>classes/target.php</filename>
+			<filename>classes/transaction.php</filename>
+			<filename>classes/type.php</filename>
+			<filename>classes/plan.php</filename>
+			<filename>classes/realtor.php</filename>
+			<filename>controllers/build.php</filename>
+			<filename>controllers/plan.php</filename>
+			<filename>controllers/image.php</filename>
+			<filename>controllers/metro.php</filename>
+			<filename>controllers/room.php</filename>
+			<filename>controllers/target.php</filename>
+			<filename>controllers/transaction.php</filename>
+			<filename>controllers/type.php</filename>
+			<filename>controllers/realtor.php</filename>		
+			<filename>views/build/view.html.php</filename>
+			<filename>views/build/index.html</filename>
+			<filename>views/build/tmpl/default.php</filename>
+			<filename>views/build/tmpl/index.html</filename>
+			<filename>views/builds/view.html.php</filename>
+			<filename>views/builds/index.html</filename>
+			<filename>views/builds/tmpl/default.php</filename>
+			<filename>views/builds/tmpl/index.html</filename>	
+			<filename>views/image/view.html.php</filename>
+			<filename>views/image/index.html</filename>
+			<filename>views/image/tmpl/default.php</filename>
+			<filename>views/image/tmpl/index.html</filename>
+			<filename>views/images/view.html.php</filename>
+			<filename>views/images/index.html</filename>
+			<filename>views/images/tmpl/default.php</filename>
+			<filename>views/images/tmpl/index.html</filename>		
+			<filename>views/metro/view.html.php</filename>
+			<filename>views/metro/index.html</filename>
+			<filename>views/metro/tmpl/default.php</filename>
+			<filename>views/metro/tmpl/index.html</filename>
+			<filename>views/metros/view.html.php</filename>
+			<filename>views/metros/index.html</filename>
+			<filename>views/metros/tmpl/default.php</filename>
+			<filename>views/metros/tmpl/index.html</filename>			
+			<filename>views/room/view.html.php</filename>
+			<filename>views/room/index.html</filename>
+			<filename>views/room/tmpl/default.php</filename>
+			<filename>views/room/tmpl/index.html</filename>
+			<filename>views/rooms/view.html.php</filename>
+			<filename>views/rooms/index.html</filename>
+			<filename>views/rooms/tmpl/default.php</filename>
+			<filename>views/rooms/tmpl/index.html</filename>
+			<filename>views/target/view.html.php</filename>
+			<filename>views/target/index.html</filename>
+			<filename>views/target/tmpl/default.php</filename>
+			<filename>views/target/tmpl/index.html</filename>
+			<filename>views/targets/view.html.php</filename>
+			<filename>views/targets/index.html</filename>
+			<filename>views/targets/tmpl/default.php</filename>
+			<filename>views/targets/tmpl/index.html</filename>		
+			<filename>views/transaction/view.html.php</filename>
+			<filename>views/transaction/index.html</filename>
+			<filename>views/transaction/tmpl/default.php</filename>
+			<filename>views/transaction/tmpl/index.html</filename>
+			<filename>views/transactions/view.html.php</filename>
+			<filename>views/transactions/index.html</filename>
+			<filename>views/transactions/tmpl/default.php</filename>
+			<filename>views/transactions/tmpl/index.html</filename>			
+			<filename>views/type/view.html.php</filename>
+			<filename>views/type/index.html</filename>
+			<filename>views/type/tmpl/default.php</filename>
+			<filename>views/type/tmpl/index.html</filename>
+			<filename>views/types/view.html.php</filename>
+			<filename>views/types/index.html</filename>
+			<filename>views/types/tmpl/default.php</filename>
+			<filename>views/types/tmpl/index.html</filename>
+			<filename>views/realtor/view.html.php</filename>
+			<filename>views/realtor/index.html</filename>
+			<filename>views/realtor/tmpl/default.php</filename>
+			<filename>views/realtor/tmpl/index.html</filename>
+			<filename>views/realtors/view.html.php</filename>
+			<filename>views/realtors/index.html</filename>
+			<filename>views/realtors/tmpl/default.php</filename>
+			<filename>views/realtors/tmpl/index.html</filename>		
+			<filename>views/plan/view.html.php</filename>
+			<filename>views/plan/index.html</filename>
+			<filename>views/plan/tmpl/default.php</filename>
+			<filename>views/plan/tmpl/index.html</filename>
+			<filename>views/plans/view.html.php</filename>
+			<filename>views/plans/index.html</filename>
+			<filename>views/plans/tmpl/default.php</filename>
+			<filename>views/plans/tmpl/index.html</filename>
+		</files>
+		<languages>
+			<language tag="ru-RU">language/admin/ru-RU/ru-RU.com_build.ini</language>
+			<language tag="ru-RU">language/admin/ru-RU/ru-RU.com_build.menu.ini</language>
+		</languages>
+	</administration>
+</install>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+ <params>
+  <param name="title_intro" type="text" default="" size="50" label="TITLE INTRO" description="TITLE INTRO DESC"/>
+  <param name="text_intro" type="textarea" default="" cols="50" rows="20" label="TEXT INTRO" description="TEXT INTRO DESC"/>
+  <param name="meta_title" type="text" default="" size="50" label="META TITLE" description="META TITLE DESC"/>
+  <param name="meta_desc" type="textarea" default="" cols="50" rows="5" label="META DESC" description="META DESC DESC"/>
+ </params>
+</config>

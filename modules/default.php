@@ -16,7 +16,7 @@ window.addEvent('domready',function() {
 	<p><input type="text" name="client_name" id="client_name" placeholder="Введите имя" class="inpstyle required"></p>
 	<p><input type="text" name="client_phone" id="client_phone" placeholder="Введите телефон" class="inpstyle required"></p>
 	<div class="submit">
-		<input type="submit"  id="moneyback" value="Отправить заявку" />
+		<input type="submit" id="moneyback" value="Отправить заявку" />
 	</div>
 </form>
 <p id="mb_result"></p>
